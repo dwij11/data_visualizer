@@ -9,7 +9,7 @@ import seaborn as sns
 github_repo_link = "https://github.com/dwij11/data_visualizer/tree/main/data"
 
 # Title
-st.title('Data Visualizer')
+st.title('Data Visualizer Web Application')
 
 # Dictionary of CSV file names and their GitHub raw file URLs
 file_urls = {
