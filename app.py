@@ -72,3 +72,24 @@ if selected_file:
 
     else:
         st.error("Failed to load data")
+
+# Add the footer with your name aligned to the bottom right
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        background-color: #f0f2f6; /* Optional background color */
+        color: grey; /* Optional text color */
+        font-size: 0.8em; /* Optional font size */
+    }
+    </style>
+    <div class="footer">
+        Made by Dwij Vashishtha
+    </div>
+    """,
+    unsafe_allow_html=True
+)
